@@ -25,7 +25,7 @@ authorLinks:
   - https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=219830
   - https://www.cs.auckland.ac.nz/people/a-drummond
   - https://unidirectory.auckland.ac.nz/profile/david-welch
-  - twitter.com/joepdl?lang=en
+  - https://scholar.google.com/citations?user=z2edTLkAAAAJ&hl=en
 dataset: "https://nextstrain.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2/2020-10-01?d=map&legend=closed"
 abstract: "
 This interactive situation report provides a high-level overview of the genomic data from the August 2020 re-emergence of SARS-CoV-2 in New Zealand (the 'Auckland August Cluster'). Before this outbreak was found, New Zealand had over 100 days without detecting community transmission.
