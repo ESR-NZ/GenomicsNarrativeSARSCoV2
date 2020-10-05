@@ -41,12 +41,12 @@ Prior to 11 August 2020, New Zealand had over 1200 confirmed cases of COVID-19, 
 
 The New Zealand Government has pursued an elimination strategy, which saw the imposition of a nation-wide lockdown on all non-essential services in late March. The lockdown was eased by late April and, from mid May, there followed a 103 day period with no community transmission detected.
 To date the borders are open only to residents or those with an exemption.
-All arrivals  must stay in managed isolation and quarantine (MIQ) facilities for 14 days and are tested on days 3 and 12 for COVID-19.
+All arrivals must stay in managed isolation and quarantine (MIQ) facilities for 14 days and are tested on days 3 and 12 for COVID-19.
 +Both tests must return a negative result prior to release from MIQ.
 
 
-To date the borders are open only to residents or those with an exemption. All arrivals are must stay in managed isolation and quarantine (MIQ) facilities for 14 days and are tested on days 3 and 12 for COVID-19.
-Both tests tests must return a negative result prior to release from MIQ.
+To date the borders are open only to residents or those with an exemption. All arrivals must stay in managed isolation and quarantine (MIQ) facilities for 14 days and are tested on days 3 and 12 for COVID-19.
+Both tests must return a negative result prior to release from MIQ.
 
 During the 103 days with no detected community transmission, there were a small but regular number of cases detected within MIQ facilites.
 
@@ -77,7 +77,7 @@ By 9 September, genome sequencing confirmed that all sequenced positive cases (1
 In total, there were [171 cases](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-significant-clusters) in the cluster as of 9 September 2020
 and the [outbreak is thought to be contained](https://theconversation.com/aucklands-rapid-lockdown-has-given-new-zealand-a-better-chance-of-eliminating-coronavirus-again-145011).
 
-Positive cases continue to be detected in MIQ facilities, and are sequenced as a matter of course (these are the blue isolates in the figure). As of 30 September, there have been three detected cases of onward transmission from MIQ facilities: the one maintenance worker mentioned above thought thought to have been infected [using an elevator shortly after a known case](https://www.stuff.co.nz/national/health/coronavirus/122512325/coronavirus-mystery-rydges-case-possibly-linked-to-use-of-hotel-elevator), a [healthcare worker](https://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=12364506) from a quarantine facility, and a [returnee who tested positive](https://www.stuff.co.nz/national/health/coronavirus/122827196/coronavirus-returnees-should-selfisolate-after-managed-isolation-expert-says) after leaving managed isolation.
+Positive cases continue to be detected in MIQ facilities, and are sequenced as a matter of course (these are the blue isolates in the figure). As of 30 September, there have been three detected cases of onward transmission from MIQ facilities: the one maintenance worker mentioned above thought to have been infected [using an elevator shortly after a known case](https://www.stuff.co.nz/national/health/coronavirus/122512325/coronavirus-mystery-rydges-case-possibly-linked-to-use-of-hotel-elevator), a [healthcare worker](https://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=12364506) from a quarantine facility, and a [returnee who tested positive](https://www.stuff.co.nz/national/health/coronavirus/122827196/coronavirus-returnees-should-selfisolate-after-managed-isolation-expert-says) after leaving managed isolation.
 
 
 ### This report
@@ -115,10 +115,10 @@ These mutations leave a trail of ‘genetic breadcrumbs’ that speak to the rec
 
 ### Source unknown
 
-We do not yet know the source of the Auckland cluster, but there are several hypotheses of how it arose. The most likely scenario is:
-1. From a recent international traveller into New Zealand who picked up this viral lineage in another country. This lineage then evaded border measures put in place to contain COVID-19 in MIQ.
+We do not yet know the source of the Auckland cluster, but there are several hypotheses of how it arose.
+This narrative considers three scenario's, with scenario 1 being the most likely:
 
-Two additional scenario's are also covered in this narrative:
+1. From a recent international traveller into New Zealand who picked up this viral lineage in another country. This lineage then evaded border measures put in place to contain COVID-19 in MIQ.
 2. From ongoing (undetected) transmission in New Zealand from the first wave of the epidemic.
 3. As the result of so-called fomite transmission on packaging of imported fresh or frozen food.
 
@@ -146,13 +146,13 @@ There may be some unknown MIQ cases too. The swab test for COVID-19 is [known to
 
 There are other people crossing the border too, such as airline or shipping workers, who cannot be categorically ruled out as possible sources.
 
-Finding a recent case in MIQ or elsewhere on the border that matched this cluster lineage would be strong evidence for the border incursion scenario, but the lack of such data does not rule it out as a posibillity.
+Finding a recent case in MIQ or elsewhere on the border that matched this cluster lineage would be strong evidence for the border incursion scenario, but the lack of such data does not rule it out as a possibility.
 
 ### Was it the UK?
 
 There are a large number of similar genomes which are from the UK, which would seem to suggest the UK is the most likely source of any unknown importation.
 
-But we need to be cautious. Of the over 80,000 publicly available worldwide SARS-CoV-2 genomes, over 35,000 have been contributed by labs in the UK (an amazing feat!).
+But we need to be cautious. Of the over 80,000 publicly available worldwide SARS-CoV-2 genomes in September 2020, over 35,000 have been contributed by labs in the UK (an amazing feat!).
 This sampling bias means that we would expect to see a higher number of UK B.1.1.1 isolates than from elsewhere simply by chance, making it hard to draw stronger conclusions.
 
 ### Was it Ecuador?
@@ -167,7 +167,7 @@ However, as there were no returnees into New Zealand from the start of June unti
 There is one New Zealand isolate which is genetically similar (1 mutation difference) to the current Auckland cluster -- sample "20VR2563".
 This sample comes from a case who was known to be infected before arrival in New Zealand and was immediately quarantined in Auckland. The sample was taken on April 14th 2020.
 
-Our Bayesian phylogenetic analysis (on the right) estimates that there is a 0.4% probability that case 20VR2563 is in the ''sister clade'' of the Auckland cluster.
+Our Bayesian phylogenetic analysis (on the right) estimates that there is a 0.4% probability that case 20VR2563 is in the ''sister clade'' of the Auckland cluster (not shown in the graph, as this sample is not in the top 10 candidates suggested by this analysis).
 According to this analysis, it is much more likely that sequences in the sister clades come from Ecuador, South Africa, Spain, England, or Australia.
 
 One reason the Auckland cluster does not sit closer to 20VR2563 in the tree is that although 20VR2563 is only one mutation away, it is **over three months** away in time.
@@ -200,7 +200,7 @@ Modelling and simulation shows that each of these events, particularly the last 
 Extensive testing and contact tracing determined the earliest case found to date was [an Americold coolstore worker who first showed symptoms on July 31](https://www.stuff.co.nz/business/industries/122446076/were-leaving-no-stone-unturned-did-new-zealands-outbreak-come-from-a-melbourne-coolstore), and the initial spread of the cluster centred around this coolstore which imports frozen goods.
 
 This led to the hypothesis that the virus may have been imported on packaging material, where it could have survived in low temperature conditions, and then gone on to infect a worker at the coolstore.
-This hypothesis is was given further credence by the possible genomic link to Ecuador (discussed earlier), since [viral particles have been found in China on frozen shrimp packaging from Ecuador](https://www.globaltimes.cn/content/1197537.shtml).
+This hypothesis is given further credence by the possible genomic link to Ecuador (discussed earlier), since [viral particles have been found in China on frozen shrimp packaging from Ecuador](https://www.globaltimes.cn/content/1197537.shtml).
 However, no shipments from Ecuador were received by the coolstore in question.
 
 Our Bayesian phylogenetic analysis (right) shows that the estimated mutation rate on the branch leading to the cluster is not a lot smaller than elsewhere in the tree, lending little weight to the possibility that the virus lay dormant on packing material for a long period of time.
@@ -233,7 +233,8 @@ Confirming or excluding fomite transmission is a very hard prove in non-laborato
 
 # [The Rydges hotel case](https://nextstrain.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2/2020-10-01/rydges?legend=open&d=tree)
 
-The "Rydges hotel case" was the first detected case whose genome did not match the lineage associated with the main Auckland cluster. [A worker](https://www.health.govt.nz/news-media/media-releases/results-covid-19-positive-cases-under-investigation-returned) at an Auckland isolation facility tested positive for COVID-19 with no known epidemiological links to the ongoing Auckland cluster and who did not have any routine contact with guests.
+The "Rydges hotel case" was the first detected case whose genome did not match the lineage associated with the main Auckland cluster.
+[A worker](https://www.health.govt.nz/news-media/media-releases/results-covid-19-positive-cases-under-investigation-returned) at an Auckland isolation facility, the Rydges hotel, tested positive for COVID-19 with no known epidemiological links to the ongoing Auckland cluster and who did not have any routine contact with guests.
 
 
 Genomic sequencing of the Rydges hotel case (NewZealand/AUK-ESR-20CV0071/2020, here coloured yellow) positioned it in a part of the tree dominated by samples from the USA that also included another NZ sample from July 1st (NewZealand/20VR3848/2020, not currently available on GISAID).
