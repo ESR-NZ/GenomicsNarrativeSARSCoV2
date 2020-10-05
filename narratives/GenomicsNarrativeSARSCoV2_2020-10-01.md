@@ -40,6 +40,11 @@ _(†) these authors contributed equally_
 Prior to 11 August 2020, New Zealand had over 1200 confirmed cases of COVID-19, spread throughout the country, and a further 350 probable cases.
 
 The New Zealand Government has pursued an elimination strategy, which saw the imposition of a nation-wide lockdown on all non-essential services in late March. The lockdown was eased by late April and, from mid May, there followed a 103 day period with no community transmission detected.
+To date the borders are open only to residents or those with an exemption.
+All arrivals  must stay in managed isolation and quarantine (MIQ) facilities for 14 days and are tested on days 3 and 12 for COVID-19.
++Both tests must return a negative result prior to release from MIQ.
+
+
 To date the borders are open only to residents or those with an exemption. All arrivals are must stay in managed isolation and quarantine (MIQ) facilities for 14 days and are tested on days 3 and 12 for COVID-19.
 Both tests tests must return a negative result prior to release from MIQ.
 
@@ -195,7 +200,8 @@ Modelling and simulation shows that each of these events, particularly the last 
 Extensive testing and contact tracing determined the earliest case found to date was [an Americold coolstore worker who first showed symptoms on July 31](https://www.stuff.co.nz/business/industries/122446076/were-leaving-no-stone-unturned-did-new-zealands-outbreak-come-from-a-melbourne-coolstore), and the initial spread of the cluster centred around this coolstore which imports frozen goods.
 
 This led to the hypothesis that the virus may have been imported on packaging material, where it could have survived in low temperature conditions, and then gone on to infect a worker at the coolstore.
-This hypothesis is was given further credence by the possible genomic link to Ecuador (discussed earlier), since [viral particles has been found in China on frozen shrimp from Ecuador](https://www.globaltimes.cn/content/1197537.shtml). However,  no shipments from Ecuador were received by the coolstore in question.
+This hypothesis is was given further credence by the possible genomic link to Ecuador (discussed earlier), since [viral particles have been found in China on frozen shrimp packaging from Ecuador](https://www.globaltimes.cn/content/1197537.shtml).
+However, no shipments from Ecuador were received by the coolstore in question.
 
 Our Bayesian phylogenetic analysis (right) shows that the estimated mutation rate on the branch leading to the cluster is not a lot smaller than elsewhere in the tree, lending little weight to the possibility that the virus lay dormant on packing material for a long period of time.
 
