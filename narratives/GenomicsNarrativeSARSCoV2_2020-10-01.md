@@ -231,14 +231,15 @@ Confirming or excluding fomite transmission is a very hard prove in non-laborato
 
 ```
 
-# [The Rydges hotel case](https://nextstrain.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2/2020-10-01/rydges?legend=open&d=tree)
+# [The Rydges hotel case](https://nextstrain.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2/2020-10-16/rydges?legend=open&d=tree)
+
+_This slide has been updated on October 16th, 2020_
 
 The "Rydges hotel case" was the first detected case whose genome did not match the lineage associated with the main Auckland cluster.
 [A worker](https://www.health.govt.nz/news-media/media-releases/results-covid-19-positive-cases-under-investigation-returned) at an Auckland isolation facility, the Rydges hotel, tested positive for COVID-19 with no known epidemiological links to the ongoing Auckland cluster and who did not have any routine contact with guests.
 
-
-Genomic sequencing of the Rydges hotel case (NewZealand/AUK-ESR-20CV0071/2020, here coloured yellow) positioned it in a part of the tree dominated by samples from the USA that also included another NZ sample from July 1st (NewZealand/20VR3848/2020, not currently available on GISAID).
-This was also from a returnee who previously tested positive in managed isolation and who was epidemiologically highlighted as having transitioned through the Rydges hotel.
+Genomic sequencing of the Rydges hotel case (NewZealand/AUK-ESR-20CV0071/2020, here coloured yellow) positioned it in a part of the tree dominated by samples from the USA that also included two genomes collected from MIQ facilities.
+Of these MIQ samples, one (NewZealand/AUK-ESR-20CV0099/2020, here coloured blue) had no mutations relative to the "Rydges hotel case"; this was also from a returnee who previously tested positive in managed isolation and who was epidemiologically highlighted as having transitioned through the Rydges hotel.
 
 These findings prompted further epidemiological investigation by health officials.
 Data subsequently showed that the maintenance worker entered the lift [a matter of minutes](https://www.rnz.co.nz/national/programmes/checkpoint/audio/2018760401/covid-19-rydges-maintenance-man-used-same-lift-as-first-case) after the positive case left it. The current working theory is that the elevator, is the source of transmission between these two people.
