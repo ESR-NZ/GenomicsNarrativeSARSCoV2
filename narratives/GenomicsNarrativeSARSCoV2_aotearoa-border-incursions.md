@@ -14,8 +14,8 @@ affiliations: "Correspondence: jordan.douglas@auckland.ac.nz; The University of 
 dataset: "http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions"
 date: June 2020
 abstract: "
-This is an [interactive Nextstrain narrative](https://docs.nextstrain.org/en/latest/guides/communicate/narratives-intro.html) intended to be a companion to the scientific paper
-[Douglas et al., medRxiv (2021)](https://www.medrxiv.org/content/10.1101/2021.05.13.21257194v1.full.pdf+html), where we recount the thirteen community outbreaks since virus elimiation in May 2020, and demonstrate how genomics played a vital role in containing them.
+This is an [interactive Nextstrain narrative](https://docs.nextstrain.org/en/latest/guides/communicate/narratives-intro.html) which is a companion to the scientific paper
+[Douglas et al., medRxiv (2021)](https://www.medrxiv.org/content/10.1101/2021.05.13.21257194v1.full.pdf+html), where we recount the thirteen community outbreaks since the virus was succesfully elimiated in May 2020, and demonstrate how genomics played a vital role in understanding, managing and containing them.
 
 There have been thirteen known COVID-19 community outbreaks in Aotearoa New Zealand since the virus was first eliminated in May 2020, two of which led to stay-at-home orders being issued by health officials.
 These outbreaks originated at the border; via isolating returnees, airline workers, and cargo vessels.
