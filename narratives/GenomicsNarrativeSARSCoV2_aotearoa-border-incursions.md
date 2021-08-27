@@ -14,20 +14,20 @@ affiliations: "Correspondence: jordan.douglas@auckland.ac.nz; The University of 
 dataset: "http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions"
 date: June 2020
 abstract: "
-This is an [interactive Nextstrain narrative](https://docs.nextstrain.org/en/latest/guides/communicate/narratives-intro.html) which is a companion to the scientific paper [Douglas et al., medRxiv (2021)](https://www.medrxiv.org/content/10.1101/2021.05.13.21257194v1.full.pdf+html)). We recount the thirteen community outbreaks since the virus was successfully eliminated in May 2020, and reflect on how genomics played a vital role in understanding, managing and containing these incursions. 
+This is an [interactive Nextstrain narrative](https://docs.nextstrain.org/en/latest/guides/communicate/narratives-intro.html) which is a companion to the scientific paper [Douglas et al., EID, (2021)](https://wwwnc.cdc.gov/eid/article/27/9/21-1097_article)). We recount the thirteen community outbreaks from when the virus was successfully eliminated in May 2020 to June 2021, and reflect on how genomics played a vital role in understanding, managing and containing these incursions. 
 
-There have been thirteen known COVID-19 community outbreaks in Aotearoa New Zealand since the virus was first eliminated in May 2020, two of which led to stay-at-home orders being issued by health officials. These outbreaks originated at the border; via returnees, airline workers, and cargo vessels. With a public health system informed by real-time viral genome sequencing, which typically had complete genomes within 12 hours after a community-based positive COVID-19 test, outbreaks were well-contained. These incursions resulted in a total of 225 community cases,  which unfortunately led to three deaths. Real-time genomics was a vital piece of information for establishing links between cases when epidemiological data could not be obtained or was inconclusive, genomics also assisted in the identification of different origins for concurrent outbreaks. By combining epidemiological and sequencing data we reconstruct the viral transmission history . In the following pages we recount the thirteen community outbreaks and demonstrate how genomics played a vital role in containing them.
+Of the thirteen COVID-19 community outbreaks we look at, two led to stay-at-home orders being issued by health officials. All outbreaks originated at the border; via returnees, airline workers, and cargo vessels. With a public health system informed by real-time viral genome sequencing, which typically had complete genomes within 12 hours after a community-based positive COVID-19 test, outbreaks were well-contained. These incursions resulted in a total of 225 community cases,  which unfortunately led to three deaths. Real-time genomics was a vital piece of information for establishing links between cases when epidemiological data could not be obtained or was inconclusive, genomics also assisted in the identification of different origins for concurrent outbreaks. 
 "
 ---
 
 
 # [Compassionate Exemption Cases](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?f_outbreak=Compassionate)
 
-After 24 days without any recorded cases in the community or at the border, and one week after the whole of Aotearoa had moved down to Alert Level 1, two cases were identified in the community. They had arrived on 7 June 2020 and were granted a compassionate exemption to exit managed isolation and quarantine (MIQ) facility earlier in order to attend a funeral on 13 June. The conditions of the exemption required them to self-isolate as far as possible while travelling and to get tested.
+After 24 days without any recorded cases in the community or at the border, and one week after the whole of Aotearoa had moved down to Alert Level 1, two cases were identified in the community. They had arrived on 7 June 2020 and were granted a compassionate exemption to exit a managed isolation and quarantine (MIQ) facility early in order to attend a funeral on 13 June. The conditions of the exemption required them to self-isolate as far as possible while travelling and to get tested.
 
-They both tested positive for COVID-19 on June 16. Within one day, complete viral genome sequencing confirmed that the two cases shared a single origin. These genomes are coloured in green on the phylogenetic tree highlighted on the right.
+On June 16, they both tested positive. Within one day, complete viral genome sequencing confirmed that the two cases shared a single origin. These genomes are coloured in green on the phylogenetic tree highlighted on the right.
 
-Although there were no secondary infections, concern for public health saw the New Zealand Defence Force put in charge of managing MIQ facilities, no returnees being allowed to leave MIQ without first returning a negative test, and the end of compassionate exemptions from most of the MIQ requirements.
+Although there were no secondary infections, concern for public health saw the New Zealand Defence Force put in charge of managing MIQ facilities, no returnees being allowed to leave MIQ without first returning a negative test, and the end of most compassionate exemptions from MIQ requirements.
 
 
 # [Auckland August Lockdown](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?f_outbreak=Auckland%20August&label=internal:mar27)
@@ -47,18 +47,26 @@ A follow-up investigation suggested that transmission likely occurred when the t
 
 # [Crowne Plaza MIQ Facility](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?f_outbreak=Auckland%20August,Rydges,Crowne%20Plaza&label=internal:mar27)
 
-IIn September 2020, a returnee developed symptoms and tested positive in Auckland four days after the end of their 14 day isolation period in he Crowne Plaza MIQ facility in Christchurch. Genome sequencing revealed that this case (“Case G”) – and their two household contacts – were not linked to the ongoing Auckland August cluster. Rather, they were linked to other returnees under managed isolation at the Crowne Plaza in Christchurch. Epidemiological investigations show the chain likely started with Cases A and B who were seated close to Case C on a repatriation flight from India. The virus then jumped from case C to case D in the MIQ facility via airborne transmission between a hotel room and its adjacent hallway. Case D is then thought to have been infectious on a domestic flight from Christchurch to Auckland where case G caught the virus. This outbreak illustrates the power of genome sequencing – when combined with detailed epidemiological investigations – for identifying cryptic transmission events such as those on flights or airborne transmission between MIQ guests. The genomic evidence here is complete with all sequences in the cluster available and the tree relatively well-resolved with four distinct genomes among the nine cases.
+In September 2020 while the Auckland August cluster was still active, a returnee developed symptoms and tested positive in Auckland four days after ending their 14 day isolation period in the Christchurch Crowne Plaza MIQ facility. 
 
-The complete Crowne Plaza outbreak has been thoroughly analysed in Eichler et al. (2021) so we provide only brief detail here.
+Genome sequencing revealed that this case (“Case G”) – and their two household contacts – were not linked to Auckland cluster. But they were linked to other returnees at the Crowne Plaza MIQ. Investigation revealed a complex chain of transmissions: Cases A and B were seated close to Case C on a repatriation flight from India. The virus then jumped from case C to case D in the MIQ facility via airborne transmission between a hotel room and its adjacent hallway. Case D is then thought to have been infectious on a domestic flight from Christchurch to Auckland where case G caught the virus. (Cases E and F were household contacts of others).
+
+This powerful combination of genome sequencing and detailed epidemiological investigation enabled the identification of cryptic transmission events on flights, and airborne transmission between MIQ guests.
+
+The genomic evidence here is complete with all sequences in the cluster available and the tree relatively well-resolved with four distinct genomes among the nine cases.
+
+Full details of this outbreak are in [Eichler et al. (2021)](https://wwwnc.cdc.gov/eid/article/27/5/21-0514_article).
 
 
 # [Multiple Outbreaks in the Sudima MIQ facility](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?c=lineage&f_outbreak=Sudima&label=internal:sudima_mrca)
 
-235 international mariners arrived into New Zealand on a charter flight from Moscow on 16 October 2020 and began their self-isolation at the Sudima MIQ facility in Christchurch. In the ensuing following period, 31 of the mariners tested positive for COVID-19SARS-CoV-2 as did two workers at the MIQ facility (NZMH, 2020g). Genomeic sequencing produced full genomes for 24 cases and indicated at least four independent origins behind for the 33 cases, falling into three distinct phylogenetic clades (Fig. 1). The three clades consist oftain two, seven, and 15 cases respectively.
+235 international mariners arrived into New Zealand on a charter flight from Moscow on 16 October 2020 and began their self-isolation at the Sudima MIQ facility in Christchurch. In the ensuing period, 31 of the mariners tested positive for SARS-CoV-2 as did two workers at the MIQ facility (NZMH, 2020g). Genomic sequencing produced full genomes for 24 cases out of the 33 cases, and three distinct phylogenetic clades. 
 
-Here we have highlighted the outbreaks, and coloured them by their PANGO lineage.
+The outbreak is highlighted here and with colours showing their PANGO lineage.
 
-We estimate the origin of the largest clade being between 4 August and 9 October (95% credible interval), but the mariners arrived on 16 October, suggesting there were at least two separate introductions of this variant into the facility. The two MIQ workers were infected with two different variants of the virus. Public health officials concluded that the two transmission events occurred via two different regular interactions with the mariners where protocols were followed but this had been insufficient to prevent transmission (Venter Consulting, 2020).
+We estimate the origin of the largest clade to be between 4 August and 9 October (95% credible interval), but the mariners arrived on 16 October, suggesting there were at least two separate introductions of this variant into the facility, so at least four introductions overall.
+
+The two MIQ workers were infected with distinct variants indicating different returnee to worker transmission events. [Officials concluded](https://www.mbie.govt.nz/dmsdocument/12887-lessons-learned-review-international-mariners) protocols were followed but this had been insufficient to prevent transmission.
 
 # [Sofrana Surville Cargo Vessel](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?f_outbreak=Sofrana%20Surville&label=internal:may18)
 
@@ -109,4 +117,4 @@ New Zealand’s ability to rapidly generate SARS-CoV-2 genomes has greatly impro
 
 Although the use of epidemiological investigation combined with  real-time sequencing and analysis in outbreak management have come to the fore during the COVID-19 pandemic, they are not unique to the current pandemic. These technologies are also increasingly used in  surveillance and outbreak management of other pathogens, such as seasonal influenza viruses, which have been largely absent from many countries over the past year (Olsen et al., 2020).
 
-For more information please see the paper which this narrative is based on [here](https://www.medrxiv.org/content/10.1101/2021.05.13.21257194v1.full.pdf+html), or click "Explore the Data Yourself" (top right of screen) to interact with this tree.
+For more information please see the paper which this narrative is based on [here](https://wwwnc.cdc.gov/eid/article/27/9/21-1097_article), or click "Explore the Data Yourself" (top right of screen) to interact with this tree.
