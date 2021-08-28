@@ -123,6 +123,8 @@ Zooming out and colouring the tree by PANGO lineage, we can see that a [wide ran
 
 # [Final words](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?c=lineage)
 
-New Zealand’s ability to rapidly generate SARS-CoV-2 genomes has greatly improved during the early months of the pandemic, to the point where genomes of newly diagnosed patients are now routinely available within 24 hours. Although the potential of the techniques described in our paper have been [well characterised in academia](https://www.nature.com/articles/nrg.2017.88), the pandemic has led to widespread adoption in New Zealand's public health system,  and the term “whole genome sequencing” becoming commonplace in public health announcements. Combined with epidemiological investigation, these data have increased public understanding of the outbreak and driven policy changes to minimise infection risks and disruption to society.
+New Zealand’s ability to rapidly generate SARS-CoV-2 genomes has greatly improved during the early months of the pandemic, to the point where genomes of newly diagnosed patients are now routinely available within 24 hours. Although the potential of the techniques described in our paper have been [well characterised in academia](https://www.nature.com/articles/nrg.2017.88), the pandemic has led to widespread adoption in New Zealand's public health system,  and the term “whole genome sequencing” becoming commonplace in public health announcements. 
+
+Combined with epidemiological investigation, genomic data have increased public understanding of the outbreak and driven policy changes to minimise infection risks and disruption to society.
 
 For more information please see the paper on which this narrative is based on [here](https://wwwnc.cdc.gov/eid/article/27/9/21-1097_article), or click "Explore the Data Yourself" (top right of screen) to interact with this tree.
