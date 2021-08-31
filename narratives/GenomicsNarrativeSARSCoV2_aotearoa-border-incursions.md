@@ -12,7 +12,7 @@ authors:
   - David Welch, PhD
 affiliations: "Correspondence: jordan.douglas@auckland.ac.nz; The University of Auckland, Private Bag 92019, Auckland 1142, New Zealand"
 dataset: "http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions"
-date: June 2020
+date: August 2021
 abstract: "
 This is an [interactive Nextstrain narrative](https://docs.nextstrain.org/en/latest/guides/communicate/narratives-intro.html) which is a companion to the scientific paper [Douglas et al., EID, (2021)](https://wwwnc.cdc.gov/eid/article/27/9/21-1097_article)). We recount the thirteen community outbreaks from when the virus was successfully eliminated in May 2020 to June 2021, and reflect on how genomics played a vital role in understanding, managing and containing these incursions. 
 
