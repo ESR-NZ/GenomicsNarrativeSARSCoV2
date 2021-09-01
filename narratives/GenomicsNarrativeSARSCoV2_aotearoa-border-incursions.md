@@ -113,7 +113,7 @@ In late March 2021, a cleaner at the Grand Millennium MIQ facility tested positi
 
 # [Auckland Airport](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?f_outbreak=Auckland%20Valentine,Grand%20Millennium,Auckland%20Airport&label=internal:sep26)
 
-A worker at Auckland International Airport tested positive for the Alpha variant in April 2020. No onward transmission was detected. Genome sequencing linked the case to a recent returnee, and a followup investigation suggested that worker’s infection was obtained from cleaning the airplane the returnee had arrived on, and was [likely a case of airborne transmission](https://www.health.govt.nz/news-media/media-releases/no-new-community-cases-1-new-case-covid-19-managed-isolation).
+A worker at Auckland International Airport tested positive for the Alpha variant in April 2021. No onward transmission was detected. Genome sequencing linked the case to a recent returnee, and a followup investigation suggested that worker’s infection was obtained from cleaning the airplane the returnee had arrived on, and was [likely a case of airborne transmission](https://www.health.govt.nz/news-media/media-releases/no-new-community-cases-1-new-case-covid-19-managed-isolation).
 
 
 # [A wide range of lineages](http://localhost:4000/community/ESR-NZ/GenomicsNarrativeSARSCoV2/aotearoa-border-incursions?c=lineage)
