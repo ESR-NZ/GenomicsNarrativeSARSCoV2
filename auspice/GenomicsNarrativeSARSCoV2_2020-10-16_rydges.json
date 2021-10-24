@@ -1,0 +1,1034 @@
+{
+  "meta": {
+    "build_url": "https://github.com/nextstrain/ncov",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "nz-group",
+        "title": "NZ grouping",
+        "type": "categorical"
+      },
+      {
+        "key": "nz-group",
+        "title": "NZ grouping",
+        "type": "categorical"
+      }
+    ],
+    "description": "\nThis phylogeny shows evolutionary relationships of SARS-CoV-2 viruses from the ongoing novel coronavirus COVID-19 pandemic. This phylogeny shows an initial emergence in Wuhan, China, in Nov-Dec 2019 followed by sustained human-to-human transmission leading to sampled infections. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred transmission patterns are only a hypothesis.\n\nThere are thousands of complete genomes available now and this number increases by hundreds of every day. This visualization can only handle ~3000 genomes in a single view for performance and legibility reasons. Because of this we have to subsample available genome data for these analysis views. Our primary [global analysis](/ncov/global/) subsamples to 120 genomes per admin division per month. This will result in a more equitable global sequence distribution, but it hides samples available from regions that are doing lots of sequencing. To mitigate against this, we've set up separate analyses to focus on particular regions. They are available by clicking on the following links: [Africa](/ncov/africa/), [Asia](/ncov/asia/), [Europe](/ncov/europe/), [North America](/ncov/north-america/), [Oceania](/ncov/oceania/) and [South America](/ncov/south-america/).\n\nSite numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 8 &times; 10^-4 subs per site per year. Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov). \n\nPhylogenetic context of nCoV in SARS-related betacoronaviruses can be seen [here](https://nextstrain.org/groups/blab/sars-like-cov).\n\nWe gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequence and metadata made available through [GISAID](https://gisaid.org) on which this research is based. A full listing of all originating and submitting laboratories is available below. An attribution table is available by clicking on \"Download Data\" at the bottom of the page and then clicking on \"Strain Metadata\" in the resulting dialog box.\n",
+    "display_defaults": {
+      "branch_label": "none",
+      "color_by": "nz-group",
+      "distance_measure": "div"
+    },
+    "filters": [
+      "nz-group",
+      "country",
+      "num_date"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF10": {
+        "end": 29674,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF14": {
+        "end": 28955,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 28734,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1a": {
+        "end": 13468,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1b": {
+        "end": 21555,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 13468,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7b": {
+        "end": 27887,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF9b": {
+        "end": 28577,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 28284,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "/Users/naboo/github/nextstrain/ncov/defaults/reference_seq.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "James Hadfield",
+        "url": "http://bedford.io/people/jameshadfield"
+      },
+      {
+        "name": "Joep de Ligt",
+        "url": "https://twitter.com/joepdl?lang=en"
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "SARS-Cov-2 NZ Rydges Hotel dataset (2020-10-01)",
+    "updated": "2020-10-16"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "USA/PR-B74P/2020",
+        "node_attrs": {
+          "author": {
+            "author": "Emilio Margolles-Clark et al",
+            "value": "Emilio Margolles-Clark et al"
+          },
+          "country": {
+            "value": "USA"
+          },
+          "div": 0.0,
+          "url": "https://www.gisaid.org"
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "ORF8: A65V"
+          },
+          "mutations": {
+            "ORF8": [
+              "A65V"
+            ],
+            "nuc": [
+              "C28087T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "USA/IL-UW-901/2020",
+                "node_attrs": {
+                  "author": {
+                    "author": "Gage Moreno et al",
+                    "value": "Gage Moreno et al"
+                  },
+                  "country": {
+                    "value": "USA"
+                  },
+                  "div": 1.11298966,
+                  "url": "https://www.gisaid.org"
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1b: G2180V"
+                  },
+                  "mutations": {
+                    "ORF1b": [
+                      "G2180V"
+                    ],
+                    "nuc": [
+                      "G20006T",
+                      "G26918A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A11914G"
+                        ]
+                      }
+                    },
+                    "name": "USA/MI-MDHHS-SC21475/2020",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Blankenship HM et al",
+                        "value": "Blankenship HM et al"
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "div": 4.08594592,
+                      "url": "https://www.gisaid.org"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "NewZealand/AUK-ESR-20CV0071/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Xiaoyun Ren et al",
+                            "value": "Xiaoyun Ren et al"
+                          },
+                          "country": {
+                            "value": "New Zealand"
+                          },
+                          "div": 3.16254128,
+                          "nz-group": {
+                            "value": "Rydges employee"
+                          },
+                          "url": "https://www.gisaid.org"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "NewZealand/AUK-ESR-20CV0099/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Xiaoyun Ren et al",
+                            "value": "Xiaoyun Ren et al"
+                          },
+                          "country": {
+                            "value": "New Zealand"
+                          },
+                          "div": 3.16254128,
+                          "nz-group": {
+                            "value": "MIQ (at Rydges)"
+                          },
+                          "url": "https://www.gisaid.org"
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 3.1024362500000002
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 3.03784577
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 1.08308666
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "USA/FL-BPHL-0832/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Sarah Schmedes et al",
+                            "value": "Sarah Schmedes et al"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 1.09116047,
+                          "url": "https://www.gisaid.org"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "USA/FL-BPHL-0831/2020",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Sarah Schmedes et al",
+                                "value": "Sarah Schmedes et al"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 1.09116047,
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "USA/FL-BPHL-0528/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Sarah Schmedes et al",
+                                    "value": "Sarah Schmedes et al"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 1.09116047,
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "USA/FL-BPHL-0968/2020",
+                                    "node_attrs": {
+                                      "author": {
+                                        "author": "Sarah Schmedes et al",
+                                        "value": "Sarah Schmedes et al"
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 1.09116047,
+                                      "url": "https://www.gisaid.org"
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/SC-20-1273-T07/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Andrew G. Letizia et al",
+                                            "value": "Andrew G. Letizia et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 1.09116047,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/WA-UW-11903/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Pavitra Roychoudhury et al",
+                                            "value": "Pavitra Roychoudhury et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 1.09116047,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000011",
+                                    "node_attrs": {
+                                      "div": 1.09116047
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000010",
+                                "node_attrs": {
+                                  "div": 1.09116047
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "div": 1.09116047
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "div": 1.09116047
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000007",
+                    "node_attrs": {
+                      "div": 1.09116047
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G29332T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C20703T"
+                            ]
+                          }
+                        },
+                        "name": "USA/FL-BPHL-0754/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Sarah Schmedes et al",
+                            "value": "Sarah Schmedes et al"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 3.06236623,
+                          "url": "https://www.gisaid.org"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C13536T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF1b: G2201S"
+                              },
+                              "mutations": {
+                                "ORF1b": [
+                                  "G2201S"
+                                ],
+                                "nuc": [
+                                  "G20068A"
+                                ]
+                              }
+                            },
+                            "name": "USA/GA-CDC-6431/2020",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Yan Li et al",
+                                "value": "Yan Li et al"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 4.0428856,
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "NewZealand/AUK-ESR-20VR3848/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Xiaoyun Ren et al",
+                                    "value": "Xiaoyun Ren et al"
+                                  },
+                                  "country": {
+                                    "value": "New Zealand"
+                                  },
+                                  "div": 3.14101112,
+                                  "nz-group": {
+                                    "value": "MIQ (not at Rydges)"
+                                  },
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "ORF1a: A3610V"
+                                      },
+                                      "mutations": {
+                                        "ORF1a": [
+                                          "A3610V"
+                                        ],
+                                        "nuc": [
+                                          "C11094T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "USA/TX-HMH-6267/2020",
+                                    "node_attrs": {
+                                      "author": {
+                                        "author": "S. Wesley Long et al",
+                                        "value": "S. Wesley Long et al"
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 4.11614795,
+                                      "url": "https://www.gisaid.org"
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "ORF1a: S993G"
+                                      },
+                                      "mutations": {
+                                        "ORF1a": [
+                                          "S993G"
+                                        ],
+                                        "nuc": [
+                                          "A3242G"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/OR-OHSU-1137/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Brendan L. O'Connell et al",
+                                            "value": "Brendan L. O'Connell et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 4.13588393,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/OR-OHSU-1167/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Brendan L. O'Connell et al",
+                                            "value": "Brendan L. O'Connell et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 4.13588393,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000016",
+                                    "node_attrs": {
+                                      "div": 4.10598093
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000015",
+                                "node_attrs": {
+                                  "div": 3.11080909
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 3.08090609
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000013",
+                        "node_attrs": {
+                          "div": 3.05100309
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 2.05672834
+                    }
+                  }
+                ],
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 1.06125747
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "USA/FL-BPHL-1354/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Schmedes et al",
+                            "value": "Schmedes et al"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 1.12106347,
+                          "url": "https://www.gisaid.org"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "USA/FL-BPHL-1266/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Schmedes et al",
+                            "value": "Schmedes et al"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 1.12106347,
+                          "url": "https://www.gisaid.org"
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000018",
+                    "node_attrs": {
+                      "div": 1.09116047
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "England/MILK-632FD5/2020",
+                        "node_attrs": {
+                          "author": {
+                            "author": "The Lighthouse Lab in Milton Keynes et al",
+                            "value": "The Lighthouse Lab in Milton Keynes et al"
+                          },
+                          "country": {
+                            "value": "United Kingdom"
+                          },
+                          "div": 1.12106347,
+                          "url": "https://www.gisaid.org"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "USA/CA-IGI-0380/2020",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Stacia Wyman et al",
+                                "value": "Stacia Wyman et al"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 1.15096647,
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "USA/FL-BPHL-0834/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Sarah Schmedes et al",
+                                    "value": "Sarah Schmedes et al"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 1.18086947,
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/FL-BPHL-0914/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Sarah Schmedes et al",
+                                            "value": "Sarah Schmedes et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 1.24067547,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/FL-BPHL-0910/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Sarah Schmedes et al",
+                                            "value": "Sarah Schmedes et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 1.24067547,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000023",
+                                    "node_attrs": {
+                                      "div": 1.21077247
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "USA/FL-BPHL-0768/2020",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Sarah Schmedes et al",
+                                            "value": "Sarah Schmedes et al"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 1.24067547,
+                                          "url": "https://www.gisaid.org"
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "USA/FL-BPHL-0756/2020",
+                                            "node_attrs": {
+                                              "author": {
+                                                "author": "Sarah Schmedes et al",
+                                                "value": "Sarah Schmedes et al"
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              },
+                                              "div": 1.27057847,
+                                              "url": "https://www.gisaid.org"
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "USA/FL-BPHL-0744/2020",
+                                                "node_attrs": {
+                                                  "author": {
+                                                    "author": "Sarah Schmedes et al",
+                                                    "value": "Sarah Schmedes et al"
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
+                                                  },
+                                                  "div": 1.30048147,
+                                                  "url": "https://www.gisaid.org"
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "USA/FL-BPHL-1523/2020",
+                                                    "node_attrs": {
+                                                      "author": {
+                                                        "author": "Sarah Schmedes et al",
+                                                        "value": "Sarah Schmedes et al"
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "div": 1.33038447,
+                                                      "url": "https://www.gisaid.org"
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "USA/FL-BPHL-0743/2020",
+                                                    "node_attrs": {
+                                                      "author": {
+                                                        "author": "Sarah Schmedes et al",
+                                                        "value": "Sarah Schmedes et al"
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "div": 1.33038447,
+                                                      "url": "https://www.gisaid.org"
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000027",
+                                                "node_attrs": {
+                                                  "div": 1.30048147
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000026",
+                                            "node_attrs": {
+                                              "div": 1.27057847
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000025",
+                                        "node_attrs": {
+                                          "div": 1.24067547
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000024",
+                                    "node_attrs": {
+                                      "div": 1.21077247
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000022",
+                                "node_attrs": {
+                                  "div": 1.18086947
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000021",
+                            "node_attrs": {
+                              "div": 1.15096647
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000020",
+                        "node_attrs": {
+                          "div": 1.12106347
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "div": 1.09116047
+                    }
+                  }
+                ],
+                "name": "NODE_0000017",
+                "node_attrs": {
+                  "div": 1.06125747
+                }
+              }
+            ],
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 1.03135447
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 1.00145147
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0
+    }
+  },
+  "version": "v2"
+}
